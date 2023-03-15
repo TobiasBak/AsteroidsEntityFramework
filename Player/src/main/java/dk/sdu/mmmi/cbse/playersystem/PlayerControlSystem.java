@@ -10,8 +10,7 @@ import dk.sdu.mmmi.cbse.common.data.World;
 import dk.sdu.mmmi.cbse.common.data.entityparts.LifePart;
 import dk.sdu.mmmi.cbse.common.data.entityparts.MovingPart;
 import dk.sdu.mmmi.cbse.common.data.entityparts.PositionPart;
-import dk.sdu.mmmi.cbse.common.services.IEntityProcessingService;
-import dk.sdu.mmmi.cbse.common.util.SPILocator;
+import dk.sdu.mmmi.cbse.common.serviceInterfaces.IEntityProcessingService;
 import dk.sdu.mmmi.cbse.commonplayer.Player;
 
 /**
@@ -33,9 +32,11 @@ public class PlayerControlSystem implements IEntityProcessingService {
             movingPart.setUp(gameData.getKeys().isDown(GameKeys.UP));
 
             if (gameData.getKeys().isDown(GameKeys.SPACE)) {
-                for (BulletSPI bullet : SPILocator.locateAll(BulletSPI.class)) {
-                    world.addEntity(bullet.createBullet(player, gameData));
-                }
+
+//                for (BulletSPI bullet : SPILocator.locateAll(BulletSPI.class)) {
+//                    world.addEntity(bullet.createBullet(player, gameData));
+//                }
+
             }
 
             movingPart.process(gameData, player);

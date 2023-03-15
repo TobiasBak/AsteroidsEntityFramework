@@ -1,6 +1,7 @@
 package dk.sdu.mmmi.cbse.common.data;
 
 import dk.sdu.mmmi.cbse.common.data.entityparts.EntityPart;
+import dk.sdu.mmmi.cbse.common.data.entityparts.LifePart;
 
 import java.io.Serializable;
 import java.util.Map;
@@ -8,7 +9,6 @@ import java.util.UUID;
 import java.util.concurrent.ConcurrentHashMap;
 
 public class Entity implements Serializable {
-
     private final UUID ID = UUID.randomUUID();
 
     private float[] shapeX = new float[4];
@@ -17,31 +17,35 @@ public class Entity implements Serializable {
     private Map<Class, EntityPart> parts;
     private float[] colour = new float[4];
 
-    public void setColour(float[] colour) { this.colour = colour;}
+    public void setColour(float[] colour) {
+        this.colour = colour;
+    }
 
-    public float[] getColour() { return colour;}
+    public float[] getColour() {
+        return colour;
+    }
 
     public Entity() {
         parts = new ConcurrentHashMap<>();
     }
-
+    
     public void add(EntityPart part) {
         parts.put(part.getClass(), part);
     }
-
+    
     public void remove(Class partClass) {
         parts.remove(partClass);
     }
-
+    
     public <E extends EntityPart> E getPart(Class partClass) {
         return (E) parts.get(partClass);
     }
-
-    public void setRadius(float r) {
+    
+    public void setRadius(float r){
         this.radius = r;
     }
-
-    public float getRadius() {
+    
+    public float getRadius(){
         return radius;
     }
 
@@ -65,4 +69,15 @@ public class Entity implements Serializable {
         this.shapeY = shapeY;
     }
 
+    public void handleCollision(Entity other, World world){
+        world.removeEntity(other);
+    }
+
+    /**
+     * Sets hit to true on the lifepart
+     */
+    public void damage(){
+        LifePart lifePart = getPart(LifePart.class);
+        lifePart.setIsHit(true);
+    }
 }

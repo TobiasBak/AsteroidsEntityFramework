@@ -8,10 +8,10 @@ import com.badlogic.gdx.graphics.glutils.ShapeRenderer;
 import dk.sdu.mmmi.cbse.common.data.Entity;
 import dk.sdu.mmmi.cbse.common.data.GameData;
 import dk.sdu.mmmi.cbse.common.data.World;
-import dk.sdu.mmmi.cbse.common.services.IEntityProcessingService;
-import dk.sdu.mmmi.cbse.common.services.IGamePluginService;
-import dk.sdu.mmmi.cbse.common.services.IPostEntityProcessingService;
-import dk.sdu.mmmi.cbse.common.util.SPILocator;
+import dk.sdu.mmmi.cbse.common.serviceInterfaces.IEntityProcessingService;
+import dk.sdu.mmmi.cbse.common.serviceInterfaces.IGamePluginService;
+import dk.sdu.mmmi.cbse.common.services.*;
+
 import dk.sdu.mmmi.cbse.managers.GameInputProcessor;
 import java.util.ArrayList;
 import java.util.Collection;
@@ -45,9 +45,10 @@ public class Game
         );
 
         // Lookup all Game Plugins using ServiceLoader
-        for (IGamePluginService iGamePlugin : getPluginServices()) {
-            iGamePlugin.start(gameData, world);
-        }
+//        for (IGamePluginService iGamePlugin : getPluginServices()) {
+//            iGamePlugin.start(gameData, world);
+//        }
+        GamePluginService.getInstance().startAll(gameData, world);
     }
 
     @Override
@@ -68,12 +69,14 @@ public class Game
 
     private void update() {
         // Update
-        for (IEntityProcessingService entityProcessorService : getEntityProcessingServices()) {
-            entityProcessorService.process(gameData, world);
-        }
-        for (IPostEntityProcessingService postEntityProcessorService : getPostEntityProcessingServices()) {
-            postEntityProcessorService.process(gameData, world);
-        }
+//        for (IEntityProcessingService entityProcessorService : getEntityProcessingServices()) {
+//            entityProcessorService.process(gameData, world);
+//        }
+//        for (IPostEntityProcessingService postEntityProcessorService : getPostEntityProcessingServices()) {
+//            postEntityProcessorService.process(gameData, world);
+//        }
+        EntityProcessingService.getInstance().processAll(gameData, world);
+        PostEntityProcessingService.getInstance().processAll(gameData, world);
     }
 
     private void draw() {
@@ -113,15 +116,15 @@ public class Game
     @Override
     public void dispose() {
     }
-    private Collection<? extends IGamePluginService> getPluginServices() {
-        return SPILocator.locateAll(IGamePluginService.class);
-    }
-
-    private Collection<? extends IEntityProcessingService> getEntityProcessingServices() {
-        return SPILocator.locateAll(IEntityProcessingService.class);
-    }
-
-    private Collection<? extends IPostEntityProcessingService> getPostEntityProcessingServices() {
-        return SPILocator.locateAll(IPostEntityProcessingService.class);
-    }
+//    private Collection<? extends IGamePluginService> getPluginServices() {
+//        return SPILocator.locateAll(IGamePluginService.class);
+//    }
+//
+//    private Collection<? extends IEntityProcessingService> getEntityProcessingServices() {
+//        return SPILocator.locateAll(IEntityProcessingService.class);
+//    }
+//
+//    private Collection<? extends IPostEntityProcessingService> getPostEntityProcessingServices() {
+//        return SPILocator.locateAll(IPostEntityProcessingService.class);
+//    }
 }

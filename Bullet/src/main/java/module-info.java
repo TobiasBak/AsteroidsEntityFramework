@@ -1,7 +1,7 @@
 import dk.sdu.mmmi.cbse.bulletsystem.BulletControlSystem;
 import dk.sdu.mmmi.cbse.bulletsystem.BulletPlugin;
-import dk.sdu.mmmi.cbse.common.services.IEntityProcessingService;
-import dk.sdu.mmmi.cbse.common.services.IGamePluginService;
+import dk.sdu.mmmi.cbse.common.serviceInterfaces.IEntityProcessingService;
+import dk.sdu.mmmi.cbse.common.serviceInterfaces.IGamePluginService;
 
 module Bullet {
     exports dk.sdu.mmmi.cbse.bulletsystem;

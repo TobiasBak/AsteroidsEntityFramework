@@ -19,19 +19,5 @@
         <module name="Common" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="Asteroid" target="1.9" />
-      <module name="AsteroidsEntityFramework" target="1.9" />
-      <module name="Bullet" target="1.9" />
-      <module name="Collision" target="1.9" />
-      <module name="Common" target="1.9" />
-      <module name="CommonAsteroids" target="1.9" />
-      <module name="CommonBullet" target="1.9" />
-      <module name="CommonEnemy" target="1.9" />
-      <module name="CommonPlayer" target="1.9" />
-      <module name="Core" target="17" />
-      <module name="Enemy" target="1.9" />
-      <module name="Player" target="1.9" />
-    </bytecodeTargetLevel>
   </component>
 </project>

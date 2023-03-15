@@ -6,7 +6,7 @@ import dk.sdu.mmmi.cbse.common.data.World;
 import dk.sdu.mmmi.cbse.common.data.entityparts.LifePart;
 import dk.sdu.mmmi.cbse.common.data.entityparts.MovingPart;
 import dk.sdu.mmmi.cbse.common.data.entityparts.PositionPart;
-import dk.sdu.mmmi.cbse.common.services.IGamePluginService;
+import dk.sdu.mmmi.cbse.common.serviceInterfaces.IGamePluginService;
 import dk.sdu.mmmi.cbse.commonenemy.Enemy;
 
 public class EnemyPlugin implements IGamePluginService {
@@ -38,8 +38,8 @@ public class EnemyPlugin implements IGamePluginService {
         Entity enemyShip = new Enemy();
         enemyShip.add(new MovingPart(deacceleration, acceleration, maxSpeed, rotationSpeed));
         enemyShip.add(new PositionPart(x, y, radians));
-        enemyShip.add(new LifePart(1));
-        enemyShip.setColour(colour);
+        enemyShip.add(new LifePart(1, 999));
+//        enemyShip.setColour(colour);
 
         return enemyShip;
     }

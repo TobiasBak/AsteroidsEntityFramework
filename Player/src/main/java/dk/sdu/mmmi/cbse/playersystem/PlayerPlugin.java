@@ -6,8 +6,9 @@ import dk.sdu.mmmi.cbse.common.data.World;
 import dk.sdu.mmmi.cbse.common.data.entityparts.LifePart;
 import dk.sdu.mmmi.cbse.common.data.entityparts.MovingPart;
 import dk.sdu.mmmi.cbse.common.data.entityparts.PositionPart;
-import dk.sdu.mmmi.cbse.common.services.IGamePluginService;
+import dk.sdu.mmmi.cbse.common.serviceInterfaces.IGamePluginService;
 import dk.sdu.mmmi.cbse.commonplayer.Player;
+
 
 public class PlayerPlugin implements IGamePluginService {
 
@@ -43,8 +44,8 @@ public class PlayerPlugin implements IGamePluginService {
         Entity playerShip = new Player();
         playerShip.add(new MovingPart(deacceleration, acceleration, maxSpeed, rotationSpeed));
         playerShip.add(new PositionPart(x, y, radians));
-        playerShip.add(new LifePart(1));
-        playerShip.setColour(colour);
+        playerShip.add(new LifePart(2, 90));
+//        playerShip.setColour(colour);
         
         return playerShip;
     }

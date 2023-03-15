@@ -7,7 +7,7 @@ import dk.sdu.mmmi.cbse.common.data.World;
 import dk.sdu.mmmi.cbse.common.data.entityparts.LifePart;
 import dk.sdu.mmmi.cbse.common.data.entityparts.MovingPart;
 import dk.sdu.mmmi.cbse.common.data.entityparts.PositionPart;
-import dk.sdu.mmmi.cbse.common.services.IGamePluginService;
+import dk.sdu.mmmi.cbse.common.serviceInterfaces.IGamePluginService;
 
 /**
  *
@@ -44,7 +44,7 @@ public class AsteroidPlugin implements IGamePluginService {
         asteroid.add(new MovingPart(0, speed, speed, 0));
         asteroid.add(new PositionPart(30, 30, radians));
         asteroid.add(new LifePart(3));
-        asteroid.setColour(colour);
+//        asteroid.setColour(colour);
 
         return asteroid;
     }
