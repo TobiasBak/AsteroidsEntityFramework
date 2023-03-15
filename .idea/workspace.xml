@@ -5,37 +5,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7f506d2c-0c17-4852-9978-38f320d682e4" name="Changes" comment="Test">
-      <change beforePath="$PROJECT_DIR$/.gitattributes" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Asteroid/target/Asteroid-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Asteroid/target/Asteroid-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Asteroid/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Asteroid/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bullet/target/Bullet-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Bullet/target/Bullet-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bullet/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Bullet/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bullet/src/main/java/module-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Collision/src/main/java/module-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Common/src/main/java/module-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CommonBullet/src/main/java/module-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CommonPlayer/src/main/java/module-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Player/src/main/java/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bullet/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Bullet/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bullet/src/main/resources/META-INF/services/dk.sdu.mmmi.cbse.common.bullet.BulletSPI" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bullet/src/main/resources/META-INF/services/dk.sdu.mmmi.cbse.common.services.IEntityProcessingService" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bullet/src/main/resources/META-INF/services/dk.sdu.mmmi.cbse.common.services.IGamePluginService" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bullet/target/classes/META-INF/services/dk.sdu.mmmi.cbse.common.bullet.BulletSPI" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bullet/target/classes/META-INF/services/dk.sdu.mmmi.cbse.common.services.IEntityProcessingService" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bullet/target/classes/META-INF/services/dk.sdu.mmmi.cbse.common.services.IGamePluginService" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Collision/src/main/resources/META-INF.services/dk.sdu.mmmi.cbse.common.services.IEntityProcessingService" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Collision/src/main/resources/META-INF.services/dk.sdu.mmmi.cbse.common.services.IGamePluginService" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Collision/src/main/resources/META-INF.services/dk.sdu.mmmi.cbse.common.services.IPostEntityProcessingService" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Collision/target/Collision2-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Collision/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Collision/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Common/target/Common-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Common/target/Common-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Common/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Common/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CommonAsteroids/target/CommonAsteroids-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/CommonAsteroids/target/CommonAsteroids-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CommonAsteroids/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/CommonAsteroids/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CommonBullet/target/CommonBullet-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/CommonBullet/target/CommonBullet-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CommonBullet/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/CommonBullet/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CommonEnemy/target/CommonEnemy-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/CommonEnemy/target/CommonEnemy-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CommonEnemy/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/CommonEnemy/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CommonPlayer/target/CommonPlayer-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/CommonPlayer/target/CommonPlayer-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CommonPlayer/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/CommonPlayer/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Core/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Core/target/Core-1.0.1-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/target/classes/dk/sdu/mmmi/cbse/main/Game.class" beforeDir="false" afterPath="$PROJECT_DIR$/Core/target/classes/dk/sdu/mmmi/cbse/main/Game.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/target/classes/dk/sdu/mmmi/cbse/main/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/Core/target/classes/dk/sdu/mmmi/cbse/main/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/target/classes/dk/sdu/mmmi/cbse/managers/GameInputProcessor.class" beforeDir="false" afterPath="$PROJECT_DIR$/Core/target/classes/dk/sdu/mmmi/cbse/managers/GameInputProcessor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/Core/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Enemy/target/Enemy-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Enemy/target/Enemy-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Enemy/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Enemy/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Player/target/Player-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Player/target/Player-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Player/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Player/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Player/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/Player/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Player/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/Player/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Player/src/main/java/dk/sdu/mmmi/cbse/playersystem/Player.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Player/src/main/resources/META-INF/services/dk.sdu.mmmi.cbse.common.services.IEntityProcessingService" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Player/src/main/resources/META-INF/services/dk.sdu.mmmi.cbse.common.services.IGamePluginService" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Player/target/classes/dk/sdu/mmmi/cbse/playersystem/Player.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,8 +37,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="module-info" />
         <option value="Class" />
+        <option value="module-info" />
       </list>
     </option>
   </component>
@@ -169,6 +161,7 @@
       <workItem from="1678886008171" duration="13000" />
       <workItem from="1678886026009" duration="827000" />
       <workItem from="1678886864497" duration="19000" />
+      <workItem from="1678886887166" duration="1066000" />
     </task>
     <task id="LOCAL-00001" summary="Test">
       <created>1678886154844</created>
@@ -177,7 +170,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678886154844</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Test">
+      <created>1678887009733</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1678887009733</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
