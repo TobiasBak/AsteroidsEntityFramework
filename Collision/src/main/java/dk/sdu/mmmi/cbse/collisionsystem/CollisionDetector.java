@@ -21,7 +21,7 @@ public class CollisionDetector implements IPostEntityProcessingService {
                 if (entity.getID().equals(collisionDetection.getID()) | entity.getColour().equals(collisionDetection.getColour())) {
                     continue;
 
-                    // remove entities with zero in expiration
+                    // remove entities with zeservicesro in expiration
                 }
 
                 // CollisionDetection

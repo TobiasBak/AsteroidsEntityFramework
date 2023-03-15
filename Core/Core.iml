@@ -31,12 +31,12 @@
     <orderEntry type="module" module-name="Asteroid" />
     <orderEntry type="module" module-name="Common" />
     <orderEntry type="module" module-name="CommonAsteroids" />
-    <orderEntry type="module" module-name="Collision" />
+    <orderEntry type="module" module-name="Collision2" />
     <orderEntry type="module" module-name="Bullet" />
     <orderEntry type="module" module-name="CommonBullet" />
     <orderEntry type="module" module-name="Enemy" />
     <orderEntry type="module" module-name="CommonEnemy" />
-    <orderEntry type="library" name="Maven: dk.sdu.mmmi.cbse:Player:1.0-SNAPSHOT" level="project" />
+    <orderEntry type="module" module-name="player" />
     <orderEntry type="module" module-name="CommonPlayer" />
   </component>
 </module>

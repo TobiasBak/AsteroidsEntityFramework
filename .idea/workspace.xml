@@ -5,63 +5,61 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7f506d2c-0c17-4852-9978-38f320d682e4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/runConfigurations.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Asteroid/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Asteroid/src/main/java/dk/sdu/mmmi/cbse/asteroid/AsteroidPlugin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Asteroid/src/main/java/dk/sdu/mmmi/cbse/asteroid/AsteroidProcessor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Asteroid/src/main/java/dk/sdu/mmmi/cbse/asteroid/AsteroidSplitterImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Asteroid/src/main/resources/META-INF/services/dk.sdu.mmmi.cbse.common.services.IEntityProcessingService" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Asteroid/src/main/resources/META-INF/services/dk.sdu.mmmi.cbse.common.services.IGamePluginService" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bullet/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bullet/src/main/java/dk/sdu/mmmi/cbse/bulletsystem/BulletControlSystem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bullet/src/main/java/dk/sdu/mmmi/cbse/bulletsystem/BulletPlugin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bullet/src/main/java/module-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bullet/src/main/resources/META-INF/services/dk.sdu.mmmi.cbse.common.bullet.BulletSPI" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bullet/src/main/resources/META-INF/services/dk.sdu.mmmi.cbse.common.services.IEntityProcessingService" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bullet/src/main/resources/META-INF/services/dk.sdu.mmmi.cbse.common.services.IGamePluginService" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Collision/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Collision/src/main/java/dk/sdu/mmmi/cbse/collisionsystem/CollisionDetector.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Collision/src/main/resources/META-INF.services/dk.sdu.mmmi.cbse.common.services.IPostEntityProcessingService" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Common/src/main/java/dk/sdu/mmmi/cbse/common/data/entityparts/TimerPart.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Common/src/main/java/dk/sdu/mmmi/cbse/common/util/SPILocator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Common/src/main/java/module-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CommonAsteroids/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CommonAsteroids/src/main/java/dk/sdu/mmmi/cbse/common/asteroids/Asteroid.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CommonAsteroids/src/main/java/dk/sdu/mmmi/cbse/common/asteroids/IAsteroidSplitter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CommonAsteroids/src/main/resources/dk/sdu/mmmi/cbse/common/asteroids/Bundle.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CommonBullet/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CommonBullet/src/main/java/dk/sdu/mmmi/cbse/common/bullet/Bullet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CommonBullet/src/main/java/dk/sdu/mmmi/cbse/common/bullet/BulletSPI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CommonBullet/src/main/resources/dk/sdu/mmmi/cbse/commonbullet/Bundle.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CommonEnemy/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CommonEnemy/src/main/java/dk/sdu/mmmi/cbse/commonenemy/Enemy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CommonPlayer/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Enemy/src/main/java/dk/sdu/mmmi/cbse/enemysystem/EnemyControlSystem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Enemy/src/main/java/dk/sdu/mmmi/cbse/enemysystem/EnemyPlugin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Enemy/src/main/java/module-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Enemy/src/main/resources/META-INF/services/dk.sdu.mmmi.cbse.common.services.IEntityProcessingService" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Enemy/src/main/resources/META-INF/services/dk.sdu.mmmi.cbse.common.services.IGamePluginService" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Player/src/main/resources/META-INF/services/dk.sdu.mmmi.cbse.common.services.IEntityProcessingService" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Player/src/main/resources/META-INF/services/dk.sdu.mmmi.cbse.common.services.IGamePluginService" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AsteroidsLibGDX/src/main/java/dk/sdu/mmmi/cbse/entities/Bullet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AsteroidsLibGDX/src/main/java/dk/sdu/mmmi/cbse/entities/Enemy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Common/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Common/src/main/java/dk/sdu/mmmi/cbse/common/data/Entity.java" beforeDir="false" afterPath="$PROJECT_DIR$/Common/src/main/java/dk/sdu/mmmi/cbse/common/data/Entity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Common/src/main/java/dk/sdu/mmmi/cbse/common/data/entityparts/LifePart.java" beforeDir="false" afterPath="$PROJECT_DIR$/Common/src/main/java/dk/sdu/mmmi/cbse/common/data/entityparts/LifePart.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Common/src/main/java/dk/sdu/mmmi/cbse/common/data/entityparts/MovingPart.java" beforeDir="false" afterPath="$PROJECT_DIR$/Common/src/main/java/dk/sdu/mmmi/cbse/common/data/entityparts/MovingPart.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Common/src/main/java/dk/sdu/mmmi/cbse/common/services/IEntityProcessingService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Common/src/main/java/dk/sdu/mmmi/cbse/common/services/IEntityProcessingService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Common/src/main/java/dk/sdu/mmmi/cbse/common/services/IGamePluginService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Common/src/main/java/dk/sdu/mmmi/cbse/common/services/IGamePluginService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Common/src/main/java/dk/sdu/mmmi/cbse/common/services/IPostEntityProcessingService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Common/src/main/java/dk/sdu/mmmi/cbse/common/services/IPostEntityProcessingService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_badlogicgames_gdx_gdx_1_11_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_badlogicgames_gdx_gdx_backend_lwjgl_1_11_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_badlogicgames_gdx_gdx_box2d_1_11_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_badlogicgames_gdx_gdx_box2d_platform_natives_desktop_1_11_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_badlogicgames_gdx_gdx_freetype_1_11_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_badlogicgames_gdx_gdx_freetype_platform_natives_desktop_1_11_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_badlogicgames_gdx_gdx_jnigen_loader_2_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_badlogicgames_gdx_gdx_platform_natives_desktop_1_11_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_badlogicgames_jlayer_jlayer_1_0_1_gdx.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_java_jinput_jinput_2_0_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_java_jinput_jinput_platform_natives_linux_2_0_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_java_jinput_jinput_platform_natives_osx_2_0_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_java_jinput_jinput_platform_natives_windows_2_0_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_java_jutils_jutils_1_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jcraft_jorbis_0_0_17.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_lwjgl_lwjgl_lwjgl_2_9_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_lwjgl_lwjgl_lwjgl_platform_natives_linux_2_9_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_lwjgl_lwjgl_lwjgl_platform_natives_osx_2_9_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_lwjgl_lwjgl_lwjgl_platform_natives_windows_2_9_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Collision/src/main/resources/META-INF.services/dk.sdu.mmmi.cbse.common.services.IEntityProcessingService" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Collision/src/main/resources/META-INF.services/dk.sdu.mmmi.cbse.common.services.IGamePluginService" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__dk_sdu_mmmi_cbse_Player_1_0_SNAPSHOT.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Collision/Collision.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Collision/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Collision/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Collision/src/main/java/dk/sdu/mmmi/cbse/collisionsystem/CollisionDetector.java" beforeDir="false" afterPath="$PROJECT_DIR$/Collision/src/main/java/dk/sdu/mmmi/cbse/collisionsystem/CollisionDetector.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Collision/src/main/resources/META-INF.services/dk.sdu.mmmi.cbse.common.services.IPostEntityProcessingService" beforeDir="false" afterPath="$PROJECT_DIR$/Collision/src/main/resources/META-INF.services/dk.sdu.mmmi.cbse.common.services.IPostEntityProcessingService" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Collision/target/classes/META-INF.services/dk.sdu.mmmi.cbse.common.services.IPostEntityProcessingService" beforeDir="false" afterPath="$PROJECT_DIR$/Collision/target/classes/META-INF.services/dk.sdu.mmmi.cbse.common.services.IPostEntityProcessingService" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Collision/target/classes/META-INF/services/dk.sdu.mmmi.cbse.common.services.IPostEntityProcessingService" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Common/src/main/java/module-info.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Common/target/Common-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Common/target/Common-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Common/target/classes/dk/sdu/mmmi/cbse/common/data/Entity.class" beforeDir="false" afterPath="$PROJECT_DIR$/Common/target/classes/dk/sdu/mmmi/cbse/common/data/Entity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Common/target/classes/module-info.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Common/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Common/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Common/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/Common/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Common/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/Common/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CommonAsteroids/target/classes/dk/sdu/mmmi/cbse/common/asteroids/Bundle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/CommonAsteroids/target/classes/dk/sdu/mmmi/cbse/common/asteroids/Bundle.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CommonAsteroids/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/CommonAsteroids/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CommonAsteroids/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/CommonAsteroids/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CommonBullet/target/classes/dk/sdu/mmmi/cbse/commonbullet/Bundle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/CommonBullet/target/classes/dk/sdu/mmmi/cbse/commonbullet/Bundle.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CommonBullet/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/CommonBullet/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CommonBullet/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/CommonBullet/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CommonEnemy/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/CommonEnemy/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CommonEnemy/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/CommonEnemy/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/Core.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Core.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Core/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Core/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/src/main/java/dk/sdu/mmmi/cbse/main/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/Core/src/main/java/dk/sdu/mmmi/cbse/main/Game.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Enemy/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Enemy/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Enemy/src/main/java/module-info.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Enemy/target/classes/module-info.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Player/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Player/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Player/src/main/java/dk/sdu/mmmi/cbse/playersystem/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/CommonPlayer/src/main/java/dk/sdu/mmmi/cbse/commonplayer/Player.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Player/src/main/java/dk/sdu/mmmi/cbse/playersystem/PlayerControlSystem.java" beforeDir="false" afterPath="$PROJECT_DIR$/Player/src/main/java/dk/sdu/mmmi/cbse/playersystem/PlayerControlSystem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Player/src/main/java/dk/sdu/mmmi/cbse/playersystem/PlayerPlugin.java" beforeDir="false" afterPath="$PROJECT_DIR$/Player/src/main/java/dk/sdu/mmmi/cbse/playersystem/PlayerPlugin.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -78,7 +76,10 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2M3J6nr7G22AdXFLOb8TNSBOb1a" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -91,20 +92,22 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../MYCOMP/AsteroidsEntityFramework" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Collision/src/main/resources/META-INF.services" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.repository.indices" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\0_Uni\AsteroidsEntityFramework\Collision\src\main\resources\META-INF.services" />
+      <recent name="C:\0_Uni\AsteroidsEntityFramework\Collision\src\main\resources" />
       <recent name="C:\0_Uni\4\Component\SB4-KOM\AsteroidsEntityFramework\Collisions2\src\main" />
       <recent name="C:\0_Uni\4\Component\SB4-KOM\AsteroidsEntityFramework" />
       <recent name="C:\0_Uni\4\Component\SB4-KOM\AsteroidsEntityFramework\Collisions2\src\resources" />
-      <recent name="C:\0_Uni\4\Component\SB4-KOM\AsteroidsEntityFramework\Collision\src\main\resources" />
-      <recent name="C:\0_Uni\4\Component\SB4-KOM\AsteroidsEntityFramework\Player\src\main\resources\META-INF\services" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\0_Uni\4\Component\SB4-KOM\AsteroidsEntityFramework\CommonEnemy\src\main\java" />
@@ -179,6 +182,7 @@
       <workItem from="1678873523847" duration="537000" />
       <workItem from="1678875496019" duration="2215000" />
       <workItem from="1678877766424" duration="1091000" />
+      <workItem from="1678880099922" duration="3295000" />
     </task>
     <servers />
   </component>
@@ -195,6 +199,5 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>

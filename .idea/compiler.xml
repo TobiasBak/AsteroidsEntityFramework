@@ -9,9 +9,9 @@
         <module name="Bullet" />
         <module name="CommonEnemy" />
         <module name="Asteroid" />
-        <module name="Collision" />
         <module name="CommonAsteroids" />
         <module name="Enemy" />
+        <module name="Collision2" />
         <module name="CommonBullet" />
         <module name="Common" />
         <module name="Core" />
@@ -25,6 +25,7 @@
       <module name="AsteroidsEntityFramework" target="1.9" />
       <module name="Bullet" target="1.9" />
       <module name="Collision" target="1.9" />
+      <module name="Collision2" target="1.9" />
       <module name="Collisions2" target="1.9" />
       <module name="Common" target="1.9" />
       <module name="CommonAsteroids" target="1.9" />

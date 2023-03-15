@@ -6,7 +6,7 @@
         <artifactId>AsteroidsEntityFramework</artifactId>
         <version>1.0-SNAPSHOT</version>
     </parent>
-    <artifactId>player</artifactId>
+    <artifactId>Player</artifactId>
     <packaging>jar</packaging>
     <name>Player</name>
     <dependencies>
