@@ -24,13 +24,16 @@ public class EntityProcessingService {
     }
 
     public void processAll(GameData gameData, World world){
+
         try{
             for (IEntityProcessingService service : loader) {
                 service.process(gameData, world);
+                System.out.printf("fuck me");
             }
-        }catch (ServiceConfigurationError serviceConfigurationError){
-            serviceConfigurationError.printStackTrace();
+        }catch (Error e){
+            e.printStackTrace();
         }
+
 
     }
 }

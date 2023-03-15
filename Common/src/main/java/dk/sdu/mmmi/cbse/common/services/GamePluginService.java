@@ -31,6 +31,7 @@ public class GamePluginService {
         }catch (ServiceConfigurationError serviceConfigurationError){
             serviceConfigurationError.printStackTrace();
         }
+
     }
 
     public void stopAll(GameData gameData, World world){
