@@ -7,10 +7,7 @@ import dk.sdu.mmmi.cbse.common.bullet.BulletSPI;
 import dk.sdu.mmmi.cbse.common.data.Entity;
 import dk.sdu.mmmi.cbse.common.data.GameData;
 import dk.sdu.mmmi.cbse.common.data.World;
-import dk.sdu.mmmi.cbse.common.data.entityparts.LifePart;
-import dk.sdu.mmmi.cbse.common.data.entityparts.MovingPart;
-import dk.sdu.mmmi.cbse.common.data.entityparts.PositionPart;
-import dk.sdu.mmmi.cbse.common.data.entityparts.TimerPart;
+import dk.sdu.mmmi.cbse.common.data.entityparts.*;
 import dk.sdu.mmmi.cbse.common.serviceInterfaces.IEntityProcessingService;
 import static java.lang.Math.cos;
 import static java.lang.Math.sin;
@@ -52,6 +49,7 @@ public class BulletControlSystem implements IEntityProcessingService, BulletSPI 
         float[] colour = shooter.getColour();
 
         Entity bullet = new Bullet();
+        System.out.println();
         bullet.setRadius(2);
         bullet.setColour(colour);
 
@@ -62,6 +60,7 @@ public class BulletControlSystem implements IEntityProcessingService, BulletSPI 
         bullet.add(new LifePart(1));
         bullet.add(new MovingPart(0, 5000000, speed, 5));
         bullet.add(new TimerPart(1));
+        bullet.add(new ColorPart(1,0,0,1));
 
         bullet.setShapeX(new float[2]);
         bullet.setShapeY(new float[2]);

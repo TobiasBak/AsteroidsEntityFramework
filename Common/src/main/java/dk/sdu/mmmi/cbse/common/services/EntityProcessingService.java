@@ -3,7 +3,10 @@ package dk.sdu.mmmi.cbse.common.services;
 import dk.sdu.mmmi.cbse.common.data.GameData;
 import dk.sdu.mmmi.cbse.common.data.World;
 import dk.sdu.mmmi.cbse.common.serviceInterfaces.IEntityProcessingService;
+import dk.sdu.mmmi.cbse.common.serviceInterfaces.IGamePluginService;
 
+import java.util.ArrayList;
+import java.util.List;
 import java.util.ServiceConfigurationError;
 import java.util.ServiceLoader;
 
@@ -23,12 +26,19 @@ public class EntityProcessingService {
         return service;
     }
 
+    public List<IEntityProcessingService> returnAll () {
+        List<IEntityProcessingService> out = new ArrayList<>();
+        for (IEntityProcessingService service : loader) {
+            out.add(service);
+        }
+        return out;
+    }
+
     public void processAll(GameData gameData, World world){
 
         try{
             for (IEntityProcessingService service : loader) {
                 service.process(gameData, world);
-                System.out.printf("fuck me");
             }
         }catch (Error e){
             e.printStackTrace();

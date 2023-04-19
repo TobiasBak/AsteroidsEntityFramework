@@ -7,7 +7,6 @@ import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
 
 /**
- *
  * @author jcs
  */
 public class World {
@@ -16,6 +15,7 @@ public class World {
     private List<Entity> entityList = new ArrayList<>();
 
     public String addEntity(Entity entity) {
+        if (entity == null) return "";
         entityMap.put(entity.getID(), entity);
         entityList = new ArrayList<>(getEntities());
         return entity.getID();
@@ -28,7 +28,7 @@ public class World {
     public void removeEntity(Entity entity) {
         entityMap.remove(entity.getID());
     }
-    
+
     public Collection<Entity> getEntities() {
         return entityMap.values();
     }
@@ -49,7 +49,7 @@ public class World {
         return entityMap.get(ID);
     }
 
-    public List<Entity> getEntityList(){
+    public List<Entity> getEntityList() {
         return entityList;
     }
 

@@ -1,5 +1,6 @@
 import dk.sdu.mmmi.cbse.bulletsystem.BulletControlSystem;
 import dk.sdu.mmmi.cbse.bulletsystem.BulletPlugin;
+import dk.sdu.mmmi.cbse.common.bullet.BulletSPI;
 import dk.sdu.mmmi.cbse.common.serviceInterfaces.IEntityProcessingService;
 import dk.sdu.mmmi.cbse.common.serviceInterfaces.IGamePluginService;
 
@@ -10,4 +11,5 @@ module Bullet {
 
     provides IGamePluginService with BulletPlugin;
     provides IEntityProcessingService with BulletControlSystem;
+    provides BulletSPI with BulletControlSystem;
 }

@@ -1,3 +1,4 @@
+import dk.sdu.mmmi.cbse.common.bullet.BulletSPI;
 import dk.sdu.mmmi.cbse.common.serviceInterfaces.IEntityProcessingService;
 import dk.sdu.mmmi.cbse.common.serviceInterfaces.IGamePluginService;
 import dk.sdu.mmmi.cbse.playersystem.PlayerControlSystem;
@@ -11,4 +12,5 @@ module Player {
 
     provides IGamePluginService with PlayerPlugin; uses IGamePluginService;
     provides IEntityProcessingService with PlayerControlSystem; uses IEntityProcessingService;
+    uses BulletSPI;
 }

@@ -4,6 +4,8 @@ import dk.sdu.mmmi.cbse.common.data.GameData;
 import dk.sdu.mmmi.cbse.common.data.World;
 import dk.sdu.mmmi.cbse.common.serviceInterfaces.IGamePluginService;
 
+import java.util.ArrayList;
+import java.util.List;
 import java.util.ServiceConfigurationError;
 import java.util.ServiceLoader;
 
@@ -21,6 +23,14 @@ public class GamePluginService {
         }
 
         return service;
+    }
+
+    public List<IGamePluginService> returnAll () {
+        List<IGamePluginService> out = new ArrayList<>();
+        for (IGamePluginService service : loader) {
+            out.add(service);
+        }
+        return out;
     }
 
     public void startAll(GameData gameData, World world){
