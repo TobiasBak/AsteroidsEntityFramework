@@ -1,0 +1,34 @@
+@startuml
+'https://plantuml.com/component-diagram
+
+component Core
+component Asteroid
+component Bullet
+component Collision
+component Enemy
+component Player
+
+interface IGamePluginService as "**IGamePluginService**"
+interface IEntityProcessingService as "**IEntityProcessingService**"
+interface IPostEntityProccessingService as "**IPostEntityProccessingService**"
+interface BulletSPI as "**BulletSPI**"
+
+Asteroid -down- IGamePluginService
+Asteroid -down- IEntityProcessingService
+Bullet -down- IGamePluginService
+Bullet -down- IEntityProcessingService
+Bullet -right- BulletSPI
+Player -down- IGamePluginService
+Player -down- IEntityProcessingService
+Enemy -down- IGamePluginService
+Enemy -down- IEntityProcessingService
+Collision -down- IPostEntityProccessingService
+
+Player -left-( BulletSPI
+
+Core -up-( IGamePluginService
+Core -up-( IEntityProcessingService
+Core -up-( IPostEntityProccessingService
+
+
+@enduml
