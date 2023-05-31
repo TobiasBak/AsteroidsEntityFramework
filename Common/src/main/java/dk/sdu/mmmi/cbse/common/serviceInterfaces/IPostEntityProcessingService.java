@@ -8,15 +8,15 @@ import dk.sdu.mmmi.cbse.common.data.World;
  * @author jcs
  */
 public interface IPostEntityProcessingService  {
-        /**<h2>Description:</h2>
-         * Called after the movement updates have happened from {@link IEntityProcessingService#process(GameData, World)}.
-         * <br><br>
-         * <h2>Pre:</h2>
-         * The entities must be started, and before each call to this process, {@link IEntityProcessingService#process(GameData, World)} must be called.
-         * <br><br>
-         * <h2>Post:</h2>
+        /**
+         * Called after IEntityProcessingService.process(GameData, World) has been called on all entities.
+         * <br>
+         * Pre conditions:
+         * IEntityProcessingService.process(GameData, World) has been called.
+         * <br>
+         * Post conditions:
          * The entities in the world will have been post-processed.
-         * <br><br>
+         * <br>
          * @param gameData Information about the Game, such as screen size etc.
          * @param world The world object that the Plugin will be added to.
          */

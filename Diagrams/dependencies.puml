@@ -1,0 +1,30 @@
+@startuml
+'https://plantuml.com/component-diagram
+component Common
+component CommonAsteroids
+component CommonBullet
+component CommonEnemy
+component CommonPlayer
+component Core
+component Asteroid
+component Bullet
+component Enemy
+component Player
+component Collision
+
+CommonAsteroids .down.> Common
+CommonBullet .down.> Common
+CommonEnemy .down.> Common
+CommonPlayer .down.> Common
+Asteroid .down.> CommonAsteroids
+Bullet .down.> CommonBullet
+Enemy .down.> CommonEnemy
+Player ..> CommonPlayer
+Collision .down.> Common
+Core .down.> Common
+Asteroid .down.> Common
+Bullet .down.> Common
+Enemy .down.> Common
+Player .down.> Common
+Player .down.> CommonBullet
+@enduml
