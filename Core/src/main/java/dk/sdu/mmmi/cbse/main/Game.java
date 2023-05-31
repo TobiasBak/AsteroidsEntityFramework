@@ -108,6 +108,9 @@ public class Game
             ColorPart colorPart;
             try {
                 colorPart = entity.getPart(ColorPart.class);
+                if(colorPart == null) {
+                    continue;
+                }
                 sr.setColor(colorPart.getR(), colorPart.getG(), colorPart.getB(), colorPart.getA());
             } catch (Error e) {
                 System.out.println(e);
